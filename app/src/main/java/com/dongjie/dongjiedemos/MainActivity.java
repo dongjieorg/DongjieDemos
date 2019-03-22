@@ -13,6 +13,8 @@ import android.view.Window;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
+import com.dongjie.dongjiedemos.notification.NotificationActivity;
 import com.dongjie.dongjiedemos.vlayout.VLayoutActivity;
 
 import java.util.LinkedList;
@@ -35,6 +37,17 @@ public class MainActivity extends Activity {
         classBean.setClassName(VLayoutActivity.class);
         list.add(classBean);
 
+        // 第三方的通知，兼容到8.0
+        classBean = new ClassBean();
+        classBean.setTitle("第三方的通知，兼容到8.0");
+        classBean.setClassName(NotificationActivity.class);
+        list.add(classBean);
+
+        // 录音， 保存为mp3格式
+        classBean = new ClassBean();
+        classBean.setTitle("录音，保存成mp3格式（lame三方库）");
+        classBean.setClassName(RecordLameActivity.class);
+        list.add(classBean);
         MyAdapter myAdapter = new MyAdapter(this, list);
         mRecyclerView.setAdapter(myAdapter);
     }
