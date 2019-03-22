@@ -13,6 +13,7 @@ import android.view.Window;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.dongjie.dongjiedemos.album.AlbumActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
 import com.dongjie.dongjiedemos.vlayout.VLayoutActivity;
@@ -48,6 +49,13 @@ public class MainActivity extends Activity {
         classBean.setTitle("录音，保存成mp3格式（lame三方库）");
         classBean.setClassName(RecordLameActivity.class);
         list.add(classBean);
+
+        // 第三方相册
+        classBean = new ClassBean();
+        classBean.setTitle("相册");
+        classBean.setClassName(AlbumActivity.class);
+        list.add(classBean);
+
         MyAdapter myAdapter = new MyAdapter(this, list);
         mRecyclerView.setAdapter(myAdapter);
     }

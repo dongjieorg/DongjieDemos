@@ -33,4 +33,5 @@ dependencies {
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.android.support:support-v4:28.0.0'
     implementation 'cn.yc:notificationLib:1.0.2'
+    implementation 'com.yanzhenjie:album:2.1.3'
 }
