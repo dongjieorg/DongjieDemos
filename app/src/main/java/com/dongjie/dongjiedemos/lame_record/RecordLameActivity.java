@@ -8,6 +8,7 @@ import android.widget.Toast;
 
 import com.czt.mp3recorder.util.MP3Recorder;
 import com.dongjie.dongjiedemos.R;
+import com.dongjie.dongjiedemos.base.BaseActivity;
 import com.dongjie.dongjiedemos.mp3.Player;
 
 import java.io.File;
@@ -20,7 +21,7 @@ import java.io.File;
  * 官网lame下载地址：https://sourceforge.net/projects/lame/files/lame/
  */
 
-public class RecordLameActivity extends Activity {
+public class RecordLameActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

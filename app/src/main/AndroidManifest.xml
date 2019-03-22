@@ -85,6 +85,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -96,7 +97,8 @@
         <activity android:name=".notification.NotificationActivity" />
         <activity android:name=".lame_record.RecordLameActivity" />
         <activity android:name=".notification.NotificationClickJumpActivity" />
-        <activity android:name=".album.AlbumActivity"></activity>
+        <activity android:name=".album.AlbumActivity" />
+        <activity android:name=".immersive_status.ImmersiveActivity" />
     </application>
 
 </manifest>

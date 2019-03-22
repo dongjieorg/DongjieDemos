@@ -1,6 +1,5 @@
 package com.dongjie.dongjiedemos.album;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.view.View;
@@ -8,6 +7,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.dongjie.dongjiedemos.R;
+import com.dongjie.dongjiedemos.base.BaseActivity;
 import com.dongjie.dongjiedemos.tools.LogUtils;
 import com.yanzhenjie.album.Action;
 import com.yanzhenjie.album.Album;
@@ -21,7 +21,7 @@ import java.util.ArrayList;
 /**
  * 第三方的相册，GitHub地址:https://github.com/yanzhenjie/Album
  */
-public class AlbumActivity extends Activity {
+public class AlbumActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

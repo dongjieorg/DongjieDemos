@@ -5,13 +5,13 @@ import android.os.Bundle;
 import android.view.Window;
 
 import com.dongjie.dongjiedemos.R;
+import com.dongjie.dongjiedemos.base.BaseActivity;
 
-public class NotificationClickJumpActivity extends Activity {
+public class NotificationClickJumpActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_notification_click_jump);
     }
 }

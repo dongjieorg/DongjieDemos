@@ -14,18 +14,18 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.dongjie.dongjiedemos.album.AlbumActivity;
+import com.dongjie.dongjiedemos.base.BaseActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
 import com.dongjie.dongjiedemos.vlayout.VLayoutActivity;
 
 import java.util.LinkedList;
 
-public class MainActivity extends Activity {
+public class MainActivity extends BaseActivity {
     RecyclerView mRecyclerView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
         mRecyclerView = findViewById(R.id.recycleview);
 

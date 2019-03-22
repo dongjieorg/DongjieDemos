@@ -16,6 +16,7 @@ import com.alibaba.android.vlayout.layout.SingleLayoutHelper;
 import com.alibaba.android.vlayout.layout.StaggeredGridLayoutHelper;
 import com.alibaba.android.vlayout.layout.StickyLayoutHelper;
 import com.dongjie.dongjiedemos.R;
+import com.dongjie.dongjiedemos.base.BaseActivity;
 import com.dongjie.dongjiedemos.vlayout.adapter.FixLayoutAdapter;
 import com.dongjie.dongjiedemos.vlayout.adapter.FloatLayoutAdapter;
 import com.dongjie.dongjiedemos.vlayout.adapter.GridHelperAdapter;
@@ -47,7 +48,7 @@ import java.util.ArrayList;
  * 来源：简书
  * 简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
  */
-public class VLayoutActivity extends Activity {
+public class VLayoutActivity extends BaseActivity {
     RecyclerView rvList;
 
     private ArrayList<String> lists = new ArrayList<>();
@@ -57,7 +58,6 @@ public class VLayoutActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_vlayout);
         rvList = findViewById(R.id.rv_list);
 
