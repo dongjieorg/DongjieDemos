@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="改变颜色"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="改变透明度"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="全屏"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="侧滑菜单"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

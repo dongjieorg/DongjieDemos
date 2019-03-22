@@ -1,6 +1,5 @@
 package com.dongjie.dongjiedemos;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,15 +8,16 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.dongjie.dongjiedemos.album.AlbumActivity;
 import com.dongjie.dongjiedemos.base.BaseActivity;
+import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
 import com.dongjie.dongjiedemos.vlayout.VLayoutActivity;
+import com.jaeger.library.StatusBarUtil;
 
 import java.util.LinkedList;
 
@@ -27,6 +27,7 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        StatusBarUtil.setColor(this, getResources().getColor(R.color.colorPrimary));
         mRecyclerView = findViewById(R.id.recycleview);
 
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -54,6 +55,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("相册");
         classBean.setClassName(AlbumActivity.class);
+        list.add(classBean);
+
+        // 第三方状态栏 沉浸式
+        classBean = new ClassBean();
+        classBean.setTitle("沉浸式");
+        classBean.setClassName(ImmersiveActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);
