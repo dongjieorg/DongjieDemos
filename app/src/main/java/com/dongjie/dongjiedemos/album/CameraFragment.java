@@ -16,7 +16,6 @@ import com.dongjie.dongjiedemos.R;
 import com.dongjie.dongjiedemos.tools.LogUtils;
 import com.yanzhenjie.album.Action;
 import com.yanzhenjie.album.Album;
-import com.yanzhenjie.album.AlbumConfig;
 
 /**
  * A simple {@link Fragment} subclass.

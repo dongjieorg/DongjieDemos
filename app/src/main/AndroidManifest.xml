@@ -101,7 +101,8 @@
         <activity android:name=".immersive_status.immersive_activity.StatusColorActivity" />
         <activity android:name=".immersive_status.immersive_activity.FullScreenStatusActivity" />
         <activity android:name=".immersive_status.immersive_activity.DrawLayoutStatusActivity" />
-        <activity android:name=".album.CameraInFragmentActivity"></activity>
+        <activity android:name=".album.CameraInFragmentActivity" />
+        <activity android:name=".zxing.ZXingActivity" android:hardwareAccelerated="true" />
     </application>
 
 </manifest>

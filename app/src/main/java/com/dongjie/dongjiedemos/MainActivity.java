@@ -17,6 +17,7 @@ import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
 import com.dongjie.dongjiedemos.vlayout.VLayoutActivity;
+import com.dongjie.dongjiedemos.zxing.ZXingActivity;
 import com.jaeger.library.StatusBarUtil;
 
 import java.util.LinkedList;
@@ -61,6 +62,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("沉浸式");
         classBean.setClassName(ImmersiveActivity.class);
+        list.add(classBean);
+
+        // Zxing
+        classBean = new ClassBean();
+        classBean.setTitle("Zxing");
+        classBean.setClassName(ZXingActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);
