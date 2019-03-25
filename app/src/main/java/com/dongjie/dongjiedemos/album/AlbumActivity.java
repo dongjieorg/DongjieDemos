@@ -227,8 +227,8 @@ public class AlbumActivity extends BaseActivity {
         public void load(ImageView imageView, String url) {
             Glide.with(imageView.getContext())
                     .load(url)
-                    .error(R.mipmap.ic_launcher)
-                    .placeholder(R.mipmap.ic_launcher_round)
+                    .error(R.mipmap.placeholder)
+                    .placeholder(R.mipmap.placeholder)
                     .crossFade()
                     .into(imageView);
         }

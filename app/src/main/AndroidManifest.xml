@@ -102,7 +102,22 @@
         <activity android:name=".immersive_status.immersive_activity.FullScreenStatusActivity" />
         <activity android:name=".immersive_status.immersive_activity.DrawLayoutStatusActivity" />
         <activity android:name=".album.CameraInFragmentActivity" />
-        <activity android:name=".zxing.ZXingActivity" android:hardwareAccelerated="true" />
+        <activity android:name=".zxing.ZXingActivity" />
+        <activity android:name=".touch_finish_activity.TouchFinishActivity" />
+        <activity
+            android:name=".touch_finish_activity.NormalActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".touch_finish_activity.ListViewActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".touch_finish_activity.ScrollActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".touch_finish_activity.ViewPagerActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".touch_finish_activity.RecyclerActivity"
+            android:theme="@android:style/Theme.Translucent" />
     </application>
 
 </manifest>

@@ -16,6 +16,7 @@ import com.dongjie.dongjiedemos.base.BaseActivity;
 import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
+import com.dongjie.dongjiedemos.touch_finish_activity.TouchFinishActivity;
 import com.dongjie.dongjiedemos.vlayout.VLayoutActivity;
 import com.dongjie.dongjiedemos.zxing.ZXingActivity;
 import com.jaeger.library.StatusBarUtil;
@@ -68,6 +69,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("Zxing");
         classBean.setClassName(ZXingActivity.class);
+        list.add(classBean);
+
+        // 侧滑finish activity
+        classBean = new ClassBean();
+        classBean.setTitle("侧滑finish activity");
+        classBean.setClassName(TouchFinishActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);
