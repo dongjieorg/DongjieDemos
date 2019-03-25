@@ -100,7 +100,8 @@
         <activity android:name=".immersive_status.ImmersiveActivity" />
         <activity android:name=".immersive_status.immersive_activity.StatusColorActivity" />
         <activity android:name=".immersive_status.immersive_activity.FullScreenStatusActivity" />
-        <activity android:name=".immersive_status.immersive_activity.DrawLayoutStatusActivity"></activity>
+        <activity android:name=".immersive_status.immersive_activity.DrawLayoutStatusActivity" />
+        <activity android:name=".album.CameraInFragmentActivity"></activity>
     </application>
 
 </manifest>

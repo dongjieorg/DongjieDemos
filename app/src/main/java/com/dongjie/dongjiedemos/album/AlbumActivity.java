@@ -1,5 +1,6 @@
 package com.dongjie.dongjiedemos.album;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.view.View;
@@ -20,6 +21,7 @@ import java.util.ArrayList;
 
 /**
  * 第三方的相册，GitHub地址:https://github.com/yanzhenjie/Album
+ * 独立拍照录像适用于Activity和fragment
  */
 public class AlbumActivity extends BaseActivity {
 
@@ -206,6 +208,12 @@ public class AlbumActivity extends BaseActivity {
                     }
                 })
                 .start();
+    }
+
+    // 直接调用手机相机录视频
+    public void onButtonClick7(View v) {
+        Intent it = new Intent(this, CameraInFragmentActivity.class);
+        startActivity(it);
     }
 
     // 加载图片的类， 里面可以自己配置用什么来加载
