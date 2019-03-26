@@ -53,6 +53,7 @@ public class CameraFragment extends Fragment {
                     @Override
                     public void onAction(@NonNull String result) {
                         LogUtils.showLog(result);
+                        getActivity().finish();
                     }
                 })
                 .start();
