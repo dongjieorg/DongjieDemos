@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.dongjie.dongjiedemos.album.AlbumActivity;
 import com.dongjie.dongjiedemos.base.BaseActivity;
+import com.dongjie.dongjiedemos.gaode_map.GaodeActivity;
 import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
@@ -75,6 +76,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("侧滑finish activity");
         classBean.setClassName(TouchFinishActivity.class);
+        list.add(classBean);
+
+        // 侧滑finish activity
+        classBean = new ClassBean();
+        classBean.setTitle("高德地图demo");
+        classBean.setClassName(GaodeActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);

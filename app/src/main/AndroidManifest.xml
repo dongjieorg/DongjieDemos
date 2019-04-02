@@ -116,8 +116,10 @@
         <activity
             android:name=".touch_finish_activity.ViewPagerActivity"
             android:theme="@android:style/Theme.Translucent" />
-        <activity android:name=".touch_finish_activity.RecyclerActivity"
+        <activity
+            android:name=".touch_finish_activity.RecyclerActivity"
             android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".gaode_map.GaodeActivity"></activity>
     </application>
 
 </manifest>
