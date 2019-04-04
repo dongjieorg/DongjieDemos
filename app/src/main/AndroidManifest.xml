@@ -85,6 +85,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="9ce91b15d2bcff0b7ca7e629abc53068" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -119,7 +123,13 @@
         <activity
             android:name=".touch_finish_activity.RecyclerActivity"
             android:theme="@android:style/Theme.Translucent" />
-        <activity android:name=".gaode_map.GaodeActivity"></activity>
+        <activity android:name=".gaode_map.GaodeActivity" />
+        <activity android:name=".gaode_map.SelectLocationActivity" />
+
+        <!-- 定位需要的服务 使用2.0的定位需要加上这个 -->
+        <service android:name="com.amap.api.location.APSService" />
+
+        <activity android:name=".gaode_map.SearchAddressActivity"></activity>
     </application>
 
 </manifest>
