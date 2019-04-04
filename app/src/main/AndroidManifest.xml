@@ -130,7 +130,11 @@
         <service android:name="com.amap.api.location.APSService" />
 
         <activity android:name=".gaode_map.SearchAddressActivity" />
-        <activity android:name=".gaode_map.GoNavActivity"></activity>
+        <activity android:name=".gaode_map.GoNavActivity" />
+        <activity android:name=".tab_indicator.TabIndicatorActivitys"></activity>
+        <activity android:name=".tab_indicator.activitys.TabPageIndicatorExActivity"/>
+        <activity android:name=".tab_indicator.activitys.TabIndicatorActivity"/>
+        <activity android:name=".tab_indicator.activitys.TabPageIndicatorActivity"/>
     </application>
 
 </manifest>

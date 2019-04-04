@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kevin="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tab_indicator_act_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.kevin.tabindicator.TabIndicator
+            android:id="@+id/tab_indicator_act_ti"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/tabbg"
+            kevin:tabTextSize="12sp"
+            kevin:tabSelectedIcons="@array/qq_selected_icon"
+            kevin:tabUnselectedIcons="@array/qq_normal_icon" />
+    </FrameLayout>
+
+</RelativeLayout>
