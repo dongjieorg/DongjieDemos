@@ -18,6 +18,7 @@ import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
 import com.dongjie.dongjiedemos.tab_indicator.TabIndicatorActivitys;
+import com.dongjie.dongjiedemos.tablayout.TabLayoutActivity;
 import com.dongjie.dongjiedemos.touch_finish_activity.TouchFinishActivity;
 import com.dongjie.dongjiedemos.vlayout.VLayoutActivity;
 import com.dongjie.dongjiedemos.zxing.ZXingActivity;
@@ -89,6 +90,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("TabIndicator的demo");
         classBean.setClassName(TabIndicatorActivitys.class);
+        list.add(classBean);
+
+        // 第三方TabLayout demo
+        classBean = new ClassBean();
+        classBean.setTitle("第三方TabLayout的demo");
+        classBean.setClassName(TabLayoutActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);

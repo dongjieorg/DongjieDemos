@@ -3,15 +3,12 @@ package com.dongjie.dongjiedemos.gaode_map;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
 import com.dongjie.dongjiedemos.R;
 import com.dongjie.dongjiedemos.gaode_map.constant.MapConstants;
-import com.dongjie.dongjiedemos.tools.ToastUtils;
 
 public class GoNavActivity extends Activity {
 
@@ -23,32 +20,17 @@ public class GoNavActivity extends Activity {
 
     // 直接调起百度地图导航， 百度地图包名：
     public void onButtonClick1(View v) {
-        if (isAppInstalled("com.baidu.BaiduMap")) {
-            goToBaiduMap(this, "西安", MapConstants.XIAN.latitude + "", MapConstants.XIAN.longitude + "");
-        }
-        else {
-            ToastUtils.showToast(this, "您没有安装百度地图");
-        }
+        goToBaiduMap(this, "西安", MapConstants.XIAN.latitude + "", MapConstants.XIAN.longitude + "");
     }
 
     // 直接调起高德地图导航，高德地图包名：com.autonavi.minimap
     public void onButtonClick2(View v) {
-        if (isAppInstalled("com.baidu.BaiduMap")) {
-            goToGaodeMap(this, "西安", MapConstants.XIAN.latitude+"", MapConstants.XIAN.longitude+"");
-        }
-        else {
-            ToastUtils.showToast(this, "您没有安装高德地图");
-        }
+        goToGaodeMap(this, "西安", MapConstants.XIAN.latitude+"", MapConstants.XIAN.longitude+"");
     }
 
     // 直接调起腾讯地图导航
     public void onButtonClick3(View v) {
-        if (isAppInstalled("com.baidu.BaiduMap")) {
-            goTencentMap(null, null, MapConstants.XIAN.latitude+","+MapConstants.XIAN.longitude, "西安", "DongjieDemos");
-        }
-        else {
-            ToastUtils.showToast(this, "您没有安装腾讯地图");
-        }
+        goTencentMap(null, null, MapConstants.XIAN.latitude+","+MapConstants.XIAN.longitude, "西安", "DongjieDemos");
     }
 
     // 调起百度地图导航
@@ -106,22 +88,6 @@ public class GoNavActivity extends Activity {
             Uri uri = Uri.parse("qqmap://map/routeplan?type=drive" + "&to=" + endAddressName + "&tocoord=" + endPoint + "&referer=" + appName);
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
-        }
-    }
-
-    public boolean isAppInstalled(String packageName){
-        PackageInfo packageInfo;
-        try {
-            packageInfo = getPackageManager().getPackageInfo(packageName, 0);
-        } catch (PackageManager.NameNotFoundException e) {
-            packageInfo=null;
-            e.printStackTrace();
-        }
-
-        if(packageInfo==null){
-            return false;
-        }else {
-            return true;
         }
     }
 }

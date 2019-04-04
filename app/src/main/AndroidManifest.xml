@@ -131,10 +131,14 @@
 
         <activity android:name=".gaode_map.SearchAddressActivity" />
         <activity android:name=".gaode_map.GoNavActivity" />
-        <activity android:name=".tab_indicator.TabIndicatorActivitys"></activity>
-        <activity android:name=".tab_indicator.activitys.TabPageIndicatorExActivity"/>
-        <activity android:name=".tab_indicator.activitys.TabIndicatorActivity"/>
-        <activity android:name=".tab_indicator.activitys.TabPageIndicatorActivity"/>
+        <activity android:name=".tab_indicator.TabIndicatorActivitys" />
+        <activity android:name=".tab_indicator.activitys.TabPageIndicatorExActivity" />
+        <activity android:name=".tab_indicator.activitys.TabIndicatorActivity" />
+        <activity android:name=".tab_indicator.activitys.TabPageIndicatorActivity" />
+        <activity android:name=".tablayout.TabLayoutActivity"></activity>
+        <activity android:name=".tablayout.activitys.CommonTabActivity"/>
+        <activity android:name=".tablayout.activitys.SlidingTabActivity"/>
+        <activity android:name=".tablayout.activitys.SegmentTabActivity"/>
     </application>
 
 </manifest>
