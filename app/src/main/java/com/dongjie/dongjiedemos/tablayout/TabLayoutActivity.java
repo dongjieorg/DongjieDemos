@@ -12,7 +12,7 @@ import com.dongjie.dongjiedemos.tablayout.activitys.SlidingTabActivity;
 
 /**
  * 第三方的TabLayout，功能齐全
- * github地址: 
+ * github地址: https://github.com/H07000223/FlycoTabLayout
  */
 public class TabLayoutActivity extends BaseActivity {
 

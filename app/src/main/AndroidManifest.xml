@@ -135,10 +135,13 @@
         <activity android:name=".tab_indicator.activitys.TabPageIndicatorExActivity" />
         <activity android:name=".tab_indicator.activitys.TabIndicatorActivity" />
         <activity android:name=".tab_indicator.activitys.TabPageIndicatorActivity" />
-        <activity android:name=".tablayout.TabLayoutActivity"></activity>
-        <activity android:name=".tablayout.activitys.CommonTabActivity"/>
-        <activity android:name=".tablayout.activitys.SlidingTabActivity"/>
-        <activity android:name=".tablayout.activitys.SegmentTabActivity"/>
+        <activity android:name=".tablayout.TabLayoutActivity" />
+        <activity android:name=".tablayout.activitys.CommonTabActivity" />
+        <activity android:name=".tablayout.activitys.SlidingTabActivity" />
+        <activity android:name=".tablayout.activitys.SegmentTabActivity" />
+        <activity android:name=".andpermission.AndPermissionActivity" />
+        <activity android:name=".andpermission.PermissionActivity" />
+        <activity android:name=".andpermission.PermissionUtilsActivity"></activity>
     </application>
 
 </manifest>

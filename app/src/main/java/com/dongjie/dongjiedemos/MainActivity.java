@@ -12,6 +12,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.dongjie.dongjiedemos.album.AlbumActivity;
+import com.dongjie.dongjiedemos.andpermission.PermissionActivity;
 import com.dongjie.dongjiedemos.base.BaseActivity;
 import com.dongjie.dongjiedemos.gaode_map.GaodeActivity;
 import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
@@ -96,6 +97,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("第三方TabLayout的demo");
         classBean.setClassName(TabLayoutActivity.class);
+        list.add(classBean);
+
+        // 第三方TabLayout demo
+        classBean = new ClassBean();
+        classBean.setTitle("权限封装");
+        classBean.setClassName(PermissionActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);
