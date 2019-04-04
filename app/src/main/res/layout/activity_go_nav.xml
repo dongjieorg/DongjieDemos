@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".gaode_map.GaodeActivity">
+    android:orientation="vertical">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="地图选择地址"
+        android:text="直接调起百度地图导航"
         android:onClick="onButtonClick1"
         android:textSize="18dp"
         android:textColor="#000"
@@ -21,7 +19,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="直接打开手机导航软件进行导航"
+        android:text="直接调起高德地图导航"
         android:onClick="onButtonClick2"
         android:textSize="18dp"
         android:textColor="#000"
@@ -30,4 +28,15 @@
         android:layout_marginRight="20dp"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="直接调起腾讯地图导航"
+        android:onClick="onButtonClick3"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
 </LinearLayout>

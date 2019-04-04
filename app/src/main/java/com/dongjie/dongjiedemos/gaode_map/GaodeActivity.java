@@ -19,8 +19,6 @@ public class GaodeActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gaode);
-
-
     }
 
     // 去地图选择地址界面
@@ -29,7 +27,9 @@ public class GaodeActivity extends Activity {
         startActivity(it);
     }
 
+    // 跳转到直接导航界面
     public void onButtonClick2(View v) {
-
+        Intent it = new Intent(this, GoNavActivity.class);
+        startActivity(it);
     }
 }
