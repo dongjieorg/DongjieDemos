@@ -13,6 +13,8 @@ import com.dongjie.dongjiedemos.immersive_status.immersive_activity.StatusColorA
 /**
  * 第三方沉浸式状态栏
  * GitHub地址：https://github.com/zyj1609wz/Android-StatusBarColor
+ *
+ * 还有一个也挺不错，GitHub地址：https://github.com/yanzhenjie/Sofia
  */
 public class ImmersiveActivity extends BaseActivity {
 

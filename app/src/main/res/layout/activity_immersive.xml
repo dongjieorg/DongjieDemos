@@ -8,33 +8,36 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="设置状态栏颜色"
+        android:text="StatusBarColor设置状态栏颜色"
         android:textColor="#000"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:onClick="onButtonClick"
+        android:textAllCaps="false"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="状态栏全屏"
+        android:text="StatusBarColor状态栏全屏"
         android:textColor="#000"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:onClick="onButtonClick2"
+        android:textAllCaps="false"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DrawerLayout 状态栏"
+        android:text="StatusBarColor DrawerLayout状态栏"
         android:textColor="#000"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:onClick="onButtonClick3"
+        android:textAllCaps="false"
         />
 </LinearLayout>
