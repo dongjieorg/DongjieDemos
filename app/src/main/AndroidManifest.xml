@@ -141,7 +141,14 @@
         <activity android:name=".tablayout.activitys.SegmentTabActivity" />
         <activity android:name=".andpermission.AndPermissionActivity" />
         <activity android:name=".andpermission.PermissionActivity" />
-        <activity android:name=".andpermission.PermissionUtilsActivity"></activity>
+        <activity android:name=".andpermission.PermissionUtilsActivity" />
+        <activity android:name=".swiperecyclerview.SwipeRecyclerViewActivity" />
+        <activity android:name=".swiperecyclerview.menu_activity.MenuActivity"></activity>
+        <activity android:name=".swiperecyclerview.menu_activity.ListMenuActivity"/>
+        <activity android:name=".swiperecyclerview.menu_activity.GridMenuActivity"/>
+        <activity android:name=".swiperecyclerview.menu_activity.DefineMenuActivity"/>
+        <activity android:name=".swiperecyclerview.menu_activity.VerticalMenuActivity"/>
+        <activity android:name=".swiperecyclerview.menu_activity.ViewTypeMenuActivity"/>
     </application>
 
 </manifest>

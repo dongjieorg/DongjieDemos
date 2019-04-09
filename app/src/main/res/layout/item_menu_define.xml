@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.yanzhenjie.recyclerview.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="?selectableItemBackground"
+    android:minHeight="100dp"
+    swipe:contentViewId="@+id/content_view"
+    swipe:leftViewId="@+id/left_view"
+    swipe:rightViewId="@+id/right_view">
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_100"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Layout左右两边可以放任何View，滑动我试试吧"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/left_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <Button
+            android:id="@+id/left_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_100"
+            android:text="左面Button1"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/left_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_100"
+            android:text="左面Button2"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/right_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_100"
+        android:text="右面Button"
+        android:textAllCaps="false"
+        />
+</com.yanzhenjie.recyclerview.SwipeMenuLayout>

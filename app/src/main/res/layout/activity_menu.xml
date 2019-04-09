@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListViewMenuActivity"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridViewMenuActivity"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewTypeMenuActivity"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VerticalMenuActivity"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DefineMenuActivity"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="onButtonClick5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAllCaps="false"
+        />
+</LinearLayout>

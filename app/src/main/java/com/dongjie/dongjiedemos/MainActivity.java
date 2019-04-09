@@ -18,6 +18,7 @@ import com.dongjie.dongjiedemos.gaode_map.GaodeActivity;
 import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
+import com.dongjie.dongjiedemos.swiperecyclerview.SwipeRecyclerViewActivity;
 import com.dongjie.dongjiedemos.tab_indicator.TabIndicatorActivitys;
 import com.dongjie.dongjiedemos.tablayout.TabLayoutActivity;
 import com.dongjie.dongjiedemos.touch_finish_activity.TouchFinishActivity;
@@ -103,6 +104,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("权限封装");
         classBean.setClassName(PermissionActivity.class);
+        list.add(classBean);
+
+        // SwipeRecyclerView
+        classBean = new ClassBean();
+        classBean.setTitle("SwipeRecyclerView");
+        classBean.setClassName(SwipeRecyclerViewActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);
