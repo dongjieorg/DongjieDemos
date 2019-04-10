@@ -143,12 +143,28 @@
         <activity android:name=".andpermission.PermissionActivity" />
         <activity android:name=".andpermission.PermissionUtilsActivity" />
         <activity android:name=".swiperecyclerview.SwipeRecyclerViewActivity" />
-        <activity android:name=".swiperecyclerview.menu_activity.MenuActivity"></activity>
-        <activity android:name=".swiperecyclerview.menu_activity.ListMenuActivity"/>
-        <activity android:name=".swiperecyclerview.menu_activity.GridMenuActivity"/>
-        <activity android:name=".swiperecyclerview.menu_activity.DefineMenuActivity"/>
-        <activity android:name=".swiperecyclerview.menu_activity.VerticalMenuActivity"/>
-        <activity android:name=".swiperecyclerview.menu_activity.ViewTypeMenuActivity"/>
+        <activity android:name=".swiperecyclerview.menu_activity.MenuActivity" />
+        <activity android:name=".swiperecyclerview.menu_activity.ListMenuActivity" />
+        <activity android:name=".swiperecyclerview.menu_activity.GridMenuActivity" />
+        <activity android:name=".swiperecyclerview.menu_activity.DefineMenuActivity" />
+        <activity android:name=".swiperecyclerview.menu_activity.VerticalMenuActivity" />
+        <activity android:name=".swiperecyclerview.menu_activity.ViewTypeMenuActivity" />
+        <activity android:name=".swiperecyclerview.move_activity.DragMoveActivity" />
+        <activity android:name=".swiperecyclerview.move_activity.DragSwipListActivity" />
+        <activity android:name=".swiperecyclerview.move_activity.DragGridActivity" />
+        <activity android:name=".swiperecyclerview.move_activity.DragSwipListDefineActivity" />
+        <activity android:name=".swiperecyclerview.move_activity.DragSwipGridDefineActivity" />
+        <activity android:name=".swiperecyclerview.header_footer_activity.RecyclerHeaderFooterActivity" />
+        <activity android:name=".swiperecyclerview.pullrefresh_load_activity.RefreshLoadMoreActivity" />
+        <activity android:name=".swiperecyclerview.pullrefresh_load_activity.RefreshLoadMoreDefaultActivity" />
+        <activity android:name=".swiperecyclerview.pullrefresh_load_activity.RefreshLoadMoreDefineActivity" />
+        <activity android:name=".swiperecyclerview.expend_activity.ExpandableActivity" />
+        <activity android:name=".swiperecyclerview.expend_activity.ExpandListActivity" />
+        <activity android:name=".swiperecyclerview.expend_activity.ExpandGridActivity" />
+        <activity android:name=".swiperecyclerview.expend_activity.ExpandStaggeredActivity" />
+        <activity android:name=".swiperecyclerview.group_activity.SwipeGroupActivity" />
+        <activity android:name=".swiperecyclerview.group_activity.GroupLayoutActivity" />
+        <activity android:name=".swiperecyclerview.group_activity.GroupMenuActivity"></activity>
     </application>
 
 </manifest>

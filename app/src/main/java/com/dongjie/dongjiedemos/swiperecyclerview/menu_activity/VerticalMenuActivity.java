@@ -125,21 +125,4 @@ public class VerticalMenuActivity extends BaseActivity {
             }
         }
     };
-
-    // ---------- 开发者只需要关注上面的代码 ---------- //
-
-//    @Override
-//    public boolean onPrepareOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.menu_all_activity, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        if (item.getItemId() == R.id.menu_open_rv_menu) {
-//            mRecyclerView.smoothOpenRightMenu(0);
-//            return true;
-//        }
-//        return super.onOptionsItemSelected(item);
-//    }
 }

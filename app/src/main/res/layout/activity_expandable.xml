@@ -7,7 +7,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MenuActivity"
+        android:text="ExpandListActivity"
         android:textColor="#000"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"
@@ -21,7 +21,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MoveActivity"
+        android:text="ExpandGridActivity"
         android:textColor="#000"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"
@@ -35,54 +35,12 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="HeaderViewActivity"
+        android:text="ExpandStaggeredActivity"
         android:textColor="#000"
         android:textSize="20dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:onClick="onButtonClick3"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:textAllCaps="false"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="RefreshLoadActivity"
-        android:textColor="#000"
-        android:textSize="20dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:onClick="onButtonClick4"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:textAllCaps="false"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ExpandableActivity"
-        android:textColor="#000"
-        android:textSize="20dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:onClick="onButtonClick5"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:textAllCaps="false"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="GroupActivity"
-        android:textColor="#000"
-        android:textSize="20dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:onClick="onButtonClick6"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:textAllCaps="false"
