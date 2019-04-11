@@ -121,6 +121,7 @@ public class MainActivity extends BaseActivity {
 
         MyAdapter myAdapter = new MyAdapter(this, list);
         mRecyclerView.setAdapter(myAdapter);
+        
     }
 
     class MyAdapter extends RecyclerView.Adapter {
