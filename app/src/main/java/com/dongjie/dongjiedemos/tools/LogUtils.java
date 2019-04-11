@@ -18,18 +18,18 @@ public class LogUtils {
 			if(!TextUtils.isEmpty(text)&&text.length() > 3000) {
 				for(int i=0;i<text.length();i+=3000){
 					if(i+3000<text.length())
-						Log.d("dongjie",text.substring(i, i+3000));
+						Log.d("dongjiejie",text.substring(i, i+3000));
 					else
-						Log.d("dongjie",text.substring(i, text.length()));
+						Log.d("dongjiejie",text.substring(i, text.length()));
 				}
 			} else
-				Log.d("dongjie",text);
+				Log.d("dongjiejie",text);
 		}
 	}
 
 	public static void showErrLog(String text) {
 		if (debug) {
-			Log.e("dongjie", text);
+			Log.e("dongjiejie", text);
 		}
 	}
 
@@ -38,12 +38,12 @@ public class LogUtils {
 			if(!TextUtils.isEmpty(text)&&text.length() > 3000) {
 				for(int i=0;i<text.length();i+=3000){
 					if(i+3000<text.length())
-						Log.i("dongjie",text.substring(i, i+3000));
+						Log.i("dongjiejie",text.substring(i, i+3000));
 					else
-						Log.i("dongjie",text.substring(i, text.length()));
+						Log.i("dongjiejie",text.substring(i, text.length()));
 				}
 			} else
-				Log.i("dongjie",text);
+				Log.i("dongjiejie",text);
 		}
 	}
 }

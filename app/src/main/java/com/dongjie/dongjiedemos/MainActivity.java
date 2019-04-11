@@ -18,6 +18,7 @@ import com.dongjie.dongjiedemos.gaode_map.GaodeActivity;
 import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
+import com.dongjie.dongjiedemos.paging.PagingActivity;
 import com.dongjie.dongjiedemos.swiperecyclerview.SwipeRecyclerViewActivity;
 import com.dongjie.dongjiedemos.tab_indicator.TabIndicatorActivitys;
 import com.dongjie.dongjiedemos.tablayout.TabLayoutActivity;
@@ -110,6 +111,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("SwipeRecyclerView");
         classBean.setClassName(SwipeRecyclerViewActivity.class);
+        list.add(classBean);
+
+        // Paging
+        classBean = new ClassBean();
+        classBean.setTitle("谷歌第三方分页加载库Paging");
+        classBean.setClassName(PagingActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);

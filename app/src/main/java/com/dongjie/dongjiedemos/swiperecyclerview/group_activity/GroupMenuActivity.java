@@ -126,7 +126,7 @@ public class GroupMenuActivity extends BaseActivity {
 
     protected List<String> createDataList() {
         List<String> strings = new ArrayList<>();
-        for (int i = 0; i < 40; i++) {
+        for (int i = 0; i < 100; i++) {
             strings.add("第" + i + "个Item");
         }
         return strings;
