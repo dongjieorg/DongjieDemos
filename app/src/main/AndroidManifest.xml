@@ -165,7 +165,8 @@
         <activity android:name=".swiperecyclerview.group_activity.SwipeGroupActivity" />
         <activity android:name=".swiperecyclerview.group_activity.GroupLayoutActivity" />
         <activity android:name=".swiperecyclerview.group_activity.GroupMenuActivity" />
-        <activity android:name=".paging.PagingActivity"></activity>
+        <activity android:name=".paging.PagingActivity" />
+        <activity android:name=".fragment_stack.FragmentStackManagerActivity"></activity>
     </application>
 
 </manifest>

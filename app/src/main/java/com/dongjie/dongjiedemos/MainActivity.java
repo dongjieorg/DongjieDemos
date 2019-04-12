@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.dongjie.dongjiedemos.album.AlbumActivity;
 import com.dongjie.dongjiedemos.andpermission.PermissionActivity;
 import com.dongjie.dongjiedemos.base.BaseActivity;
+import com.dongjie.dongjiedemos.fragment_stack.FragmentStackManagerActivity;
 import com.dongjie.dongjiedemos.gaode_map.GaodeActivity;
 import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
@@ -119,9 +120,14 @@ public class MainActivity extends BaseActivity {
         classBean.setClassName(PagingActivity.class);
         list.add(classBean);
 
+        // 第三方的fragment栈管理
+        classBean = new ClassBean();
+        classBean.setTitle("仿Activity的fragment栈管理");
+        classBean.setClassName(FragmentStackManagerActivity.class);
+        list.add(classBean);
+
         MyAdapter myAdapter = new MyAdapter(this, list);
         mRecyclerView.setAdapter(myAdapter);
-        
     }
 
     class MyAdapter extends RecyclerView.Adapter {
