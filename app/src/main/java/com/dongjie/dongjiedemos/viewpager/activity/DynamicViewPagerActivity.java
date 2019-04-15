@@ -1,4 +1,4 @@
-package com.dongjie.dongjiedemos.viewpager;
+package com.dongjie.dongjiedemos.viewpager.activity;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;

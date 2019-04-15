@@ -169,8 +169,9 @@
         <activity android:name=".fragment_stack.FragmentStackManagerActivity" />
         <activity android:name=".calendar.CalendarActivity" />
         <activity android:name=".calendar.calendar1.Calendar1Activity" />
-        <activity android:name=".viewpager.ViewPagerActivity" />
-        <activity android:name=".viewpager.DynamicViewPagerActivity"></activity>
+        <activity android:name=".viewpager.PagerActivity" />
+        <activity android:name=".viewpager.activity.DynamicViewPagerActivity" />
+        <activity android:name=".viewpager.activity.VerticalPagerActivity"></activity>
     </application>
 
 </manifest>

@@ -25,7 +25,7 @@ import com.dongjie.dongjiedemos.swiperecyclerview.SwipeRecyclerViewActivity;
 import com.dongjie.dongjiedemos.tab_indicator.TabIndicatorActivitys;
 import com.dongjie.dongjiedemos.tablayout.TabLayoutActivity;
 import com.dongjie.dongjiedemos.touch_finish_activity.TouchFinishActivity;
-import com.dongjie.dongjiedemos.viewpager.DynamicViewPagerActivity;
+import com.dongjie.dongjiedemos.viewpager.PagerActivity;
 import com.dongjie.dongjiedemos.vlayout.VLayoutActivity;
 import com.dongjie.dongjiedemos.zxing.ZXingActivity;
 import com.jaeger.library.StatusBarUtil;
@@ -137,7 +137,7 @@ public class MainActivity extends BaseActivity {
         // 动态加载Fragment的ViewPager
         classBean = new ClassBean();
         classBean.setTitle("ViewPager动态加载fragment");
-        classBean.setClassName(DynamicViewPagerActivity.class);
+        classBean.setClassName(PagerActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);

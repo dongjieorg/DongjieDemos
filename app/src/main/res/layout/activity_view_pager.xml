@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    tools:context=".calendar.CalendarActivity">
+    android:gravity="center">
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calendar1"
+        android:text="动态加载的ViewPager"
         android:textAllCaps="false"
         android:textSize="20dp"
         android:layout_marginLeft="20dp"
@@ -18,4 +16,15 @@
         android:onClick="onButtonClick1"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="垂直的动态加载的ViewPager"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:onClick="onButtonClick2"
+        />
 </LinearLayout>
