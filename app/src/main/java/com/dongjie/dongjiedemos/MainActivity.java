@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.dongjie.dongjiedemos.album.AlbumActivity;
 import com.dongjie.dongjiedemos.andpermission.PermissionActivity;
 import com.dongjie.dongjiedemos.base.BaseActivity;
+import com.dongjie.dongjiedemos.calendar.CalendarActivity;
 import com.dongjie.dongjiedemos.fragment_stack.FragmentStackManagerActivity;
 import com.dongjie.dongjiedemos.gaode_map.GaodeActivity;
 import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
@@ -24,6 +25,7 @@ import com.dongjie.dongjiedemos.swiperecyclerview.SwipeRecyclerViewActivity;
 import com.dongjie.dongjiedemos.tab_indicator.TabIndicatorActivitys;
 import com.dongjie.dongjiedemos.tablayout.TabLayoutActivity;
 import com.dongjie.dongjiedemos.touch_finish_activity.TouchFinishActivity;
+import com.dongjie.dongjiedemos.viewpager.DynamicViewPagerActivity;
 import com.dongjie.dongjiedemos.vlayout.VLayoutActivity;
 import com.dongjie.dongjiedemos.zxing.ZXingActivity;
 import com.jaeger.library.StatusBarUtil;
@@ -120,10 +122,22 @@ public class MainActivity extends BaseActivity {
         classBean.setClassName(PagingActivity.class);
         list.add(classBean);
 
-        // 第三方的fragment栈管理
+        // 自己写的fragment栈管理
         classBean = new ClassBean();
         classBean.setTitle("仿Activity的fragment栈管理");
         classBean.setClassName(FragmentStackManagerActivity.class);
+        list.add(classBean);
+
+        // 日历demo
+        classBean = new ClassBean();
+        classBean.setTitle("日历demo");
+        classBean.setClassName(CalendarActivity.class);
+        list.add(classBean);
+
+        // 动态加载Fragment的ViewPager
+        classBean = new ClassBean();
+        classBean.setTitle("ViewPager动态加载fragment");
+        classBean.setClassName(DynamicViewPagerActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);

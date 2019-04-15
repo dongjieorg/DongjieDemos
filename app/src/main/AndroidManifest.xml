@@ -166,7 +166,11 @@
         <activity android:name=".swiperecyclerview.group_activity.GroupLayoutActivity" />
         <activity android:name=".swiperecyclerview.group_activity.GroupMenuActivity" />
         <activity android:name=".paging.PagingActivity" />
-        <activity android:name=".fragment_stack.FragmentStackManagerActivity"></activity>
+        <activity android:name=".fragment_stack.FragmentStackManagerActivity" />
+        <activity android:name=".calendar.CalendarActivity" />
+        <activity android:name=".calendar.calendar1.Calendar1Activity" />
+        <activity android:name=".viewpager.ViewPagerActivity" />
+        <activity android:name=".viewpager.DynamicViewPagerActivity"></activity>
     </application>
 
 </manifest>
