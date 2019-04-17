@@ -51,5 +51,7 @@ dependencies {
     // 分页paging
     implementation 'android.arch.paging:runtime:1.0.1'
     // 日历
-    compile 'com.joybar.calendar:librarycalendar:1.0.6'
+    implementation 'com.joybar.calendar:librarycalendar:1.0.6'
+    // jiecaovideoplayer
+    implementation project(':jcvideoplayer-lib')
 }

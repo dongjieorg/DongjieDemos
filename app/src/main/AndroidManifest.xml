@@ -171,7 +171,39 @@
         <activity android:name=".calendar.calendar1.Calendar1Activity" />
         <activity android:name=".viewpager.PagerActivity" />
         <activity android:name=".viewpager.activity.DynamicViewPagerActivity" />
-        <activity android:name=".viewpager.activity.VerticalPagerActivity"></activity>
+        <activity android:name=".viewpager.activity.VerticalPagerActivity" />
+        <activity android:name=".videoplayer.VideoPlayerActivity" />
+        <activity
+            android:name=".videoplayer.activity.FullTinyScreenActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videoplayer.activity.ListHeaderVideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videoplayer.activity.ListVideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videoplayer.activity.RecyclerViewVideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videoplayer.activity.MutiHolderListVideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videoplayer.activity.PagerListVideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videoplayer.activity.WebViewVideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".videoplayer.activity.JieCaoApiActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"  />
     </application>
 
 </manifest>

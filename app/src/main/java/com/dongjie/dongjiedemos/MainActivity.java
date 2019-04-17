@@ -25,6 +25,7 @@ import com.dongjie.dongjiedemos.swiperecyclerview.SwipeRecyclerViewActivity;
 import com.dongjie.dongjiedemos.tab_indicator.TabIndicatorActivitys;
 import com.dongjie.dongjiedemos.tablayout.TabLayoutActivity;
 import com.dongjie.dongjiedemos.touch_finish_activity.TouchFinishActivity;
+import com.dongjie.dongjiedemos.videoplayer.VideoPlayerActivity;
 import com.dongjie.dongjiedemos.viewpager.PagerActivity;
 import com.dongjie.dongjiedemos.vlayout.VLayoutActivity;
 import com.dongjie.dongjiedemos.zxing.ZXingActivity;
@@ -138,6 +139,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("ViewPager动态加载fragment");
         classBean.setClassName(PagerActivity.class);
+        list.add(classBean);
+
+        // 动态加载Fragment的ViewPager
+        classBean = new ClassBean();
+        classBean.setTitle("视频播放器");
+        classBean.setClassName(VideoPlayerActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);
