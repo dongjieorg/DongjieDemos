@@ -54,4 +54,6 @@ dependencies {
     implementation 'com.joybar.calendar:librarycalendar:1.0.6'
     // jiecaovideoplayer
     implementation project(':jcvideoplayer-lib')
+    // 下拉刷新库
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21'
 }

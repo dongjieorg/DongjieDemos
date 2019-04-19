@@ -201,9 +201,14 @@
             android:name=".videoplayer.activity.WebViewVideoActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
-        <activity android:name=".videoplayer.activity.JieCaoApiActivity"
+        <activity
+            android:name=".videoplayer.activity.JieCaoApiActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
-            android:screenOrientation="portrait"  />
+            android:screenOrientation="portrait" />
+        <activity android:name=".pull_refresh.PullRefreshActivity" />
+        <activity android:name=".pull_refresh.activity.ClassicsHeaderActivity" />
+        <activity android:name=".pull_refresh.activity.BezierRadarHeaderActivity" />
+        <activity android:name=".pull_refresh.activity.ViewRefreshLoadMoreActivity"></activity>
     </application>
 
 </manifest>
