@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:id="@+id/ll_dynamics_lable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|bottom"
+        android:duplicateParentState="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/lable_selector"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_lable_name"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:singleLine="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="#587cf3"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/delete"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@mipmap/upload_delete"
+        android:layout_gravity="right|top"
+        />
+
+</FrameLayout>

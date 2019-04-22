@@ -15,6 +15,7 @@ import com.dongjie.dongjiedemos.album.AlbumActivity;
 import com.dongjie.dongjiedemos.andpermission.PermissionActivity;
 import com.dongjie.dongjiedemos.base.BaseActivity;
 import com.dongjie.dongjiedemos.calendar.CalendarActivity;
+import com.dongjie.dongjiedemos.flow_layout.FlowLayoutActivity;
 import com.dongjie.dongjiedemos.fragment_stack.FragmentStackManagerActivity;
 import com.dongjie.dongjiedemos.gaode_map.GaodeActivity;
 import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
@@ -142,16 +143,22 @@ public class MainActivity extends BaseActivity {
         classBean.setClassName(PagerActivity.class);
         list.add(classBean);
 
-        // 动态加载Fragment的ViewPager
+        // 视频播放器
         classBean = new ClassBean();
         classBean.setTitle("视频播放器");
         classBean.setClassName(VideoPlayerActivity.class);
         list.add(classBean);
 
-        // 动态加载Fragment的ViewPager
+        // 下拉刷新和上拉加载更多的lib
         classBean = new ClassBean();
         classBean.setTitle("下拉刷新和上拉加载更多");
         classBean.setClassName(PullRefreshActivity.class);
+        list.add(classBean);
+
+        // 流式布局
+        classBean = new ClassBean();
+        classBean.setTitle("流式布局");
+        classBean.setClassName(FlowLayoutActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);

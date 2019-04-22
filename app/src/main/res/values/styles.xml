@@ -5,4 +5,12 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <declare-styleable name="FlowLayout">
+        <attr name="width_space" format="dimension" />
+        <attr name="height_space" format="dimension" />
+        <attr name="custom_width" format="dimension" />
+        <attr name="dynamicStyle" format="integer" />
+        <attr name="isShowDelete" format="boolean" />
+        <attr name="FlowTextColor" format="reference" />
+    </declare-styleable>
 </resources>
