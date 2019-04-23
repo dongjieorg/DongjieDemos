@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".calendar.CalendarActivity">
     <Button
         android:layout_width="match_parent"
@@ -18,4 +17,15 @@
         android:onClick="onButtonClick1"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calendar2"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:onClick="onButtonClick2"
+        />
 </LinearLayout>

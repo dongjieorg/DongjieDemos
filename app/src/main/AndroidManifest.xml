@@ -209,7 +209,11 @@
         <activity android:name=".pull_refresh.activity.ClassicsHeaderActivity" />
         <activity android:name=".pull_refresh.activity.BezierRadarHeaderActivity" />
         <activity android:name=".pull_refresh.activity.ViewRefreshLoadMoreActivity" />
-        <activity android:name=".flow_layout.FlowLayoutActivity"></activity>
+        <activity android:name=".flow_layout.FlowLayoutActivity" />
+        <activity android:name=".calendar.calendar2.Calendar2Activity" />
+        <activity android:name=".calendar.calendar2.CalendarStyle1Activity" />
+        <activity android:name=".calendar.calendar2.CalendarStyle2Activity" />
+        <activity android:name=".calendar.calendar2.CalendarStyle3Activity"></activity>
     </application>
 
 </manifest>

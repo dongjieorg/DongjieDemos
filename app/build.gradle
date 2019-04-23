@@ -52,6 +52,8 @@ dependencies {
     implementation 'android.arch.paging:runtime:1.0.1'
     // 日历
     implementation 'com.joybar.calendar:librarycalendar:1.0.6'
+    // 日历
+    implementation 'cn.aigestudio.datepicker:DatePicker:2.2.0'
     // jiecaovideoplayer
     implementation project(':jcvideoplayer-lib')
     // 下拉刷新库
