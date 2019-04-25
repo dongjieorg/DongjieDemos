@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.dongjie.dongjiedemos.R;
+import com.dongjie.dongjiedemos.tools.LogUtils;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,6 +23,7 @@ public class ItemFragment extends Fragment {
     TextView mTextView;
     Button mBt;
     View v;
+    int mPosition;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -37,8 +39,20 @@ public class ItemFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         Bundle b = getArguments();
         if (b != null) {
-            int position = b.getInt("position");
-            mTextView.setText("这是第" + position + "Fragment");
+            mPosition = b.getInt("position");
+            mTextView.setText("这是第" + mPosition + "Fragment");
+        }
+    }
+
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        if (isVisibleToUser) {
+            LogUtils.showLog("第" + mPosition + "个页面显示");
+            // 加载数据可以放到这里
+        }
+        else {
+            LogUtils.showLog("第" + mPosition + "个页面隐藏");
         }
     }
 }
