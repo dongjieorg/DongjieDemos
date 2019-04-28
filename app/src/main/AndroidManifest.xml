@@ -213,7 +213,9 @@
         <activity android:name=".calendar.calendar2.Calendar2Activity" />
         <activity android:name=".calendar.calendar2.CalendarStyle1Activity" />
         <activity android:name=".calendar.calendar2.CalendarStyle2Activity" />
-        <activity android:name=".calendar.calendar2.CalendarStyle3Activity"></activity>
+        <activity android:name=".calendar.calendar2.CalendarStyle3Activity" />
+        <activity android:name=".share_element.ShareElement1Activity" />
+        <activity android:name=".share_element.ShareElement2Activity"></activity>
     </application>
 
 </manifest>
