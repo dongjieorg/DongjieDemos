@@ -58,4 +58,6 @@ dependencies {
     implementation project(':jcvideoplayer-lib')
     // 下拉刷新库
     implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21'
+    // GPUImage
+    implementation 'jp.co.cyberagent.android:gpuimage:2.0.3'
 }

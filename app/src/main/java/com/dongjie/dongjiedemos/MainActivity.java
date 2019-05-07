@@ -18,6 +18,7 @@ import com.dongjie.dongjiedemos.calendar.CalendarActivity;
 import com.dongjie.dongjiedemos.flow_layout.FlowLayoutActivity;
 import com.dongjie.dongjiedemos.fragment_stack.FragmentStackManagerActivity;
 import com.dongjie.dongjiedemos.gaode_map.GaodeActivity;
+import com.dongjie.dongjiedemos.gpu_image.GPUImageActivity;
 import com.dongjie.dongjiedemos.immersive_status.ImmersiveActivity;
 import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
@@ -166,6 +167,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("共享元素动画");
         classBean.setClassName(ShareElement1Activity.class);
+        list.add(classBean);
+
+        // GPUImage
+        classBean = new ClassBean();
+        classBean.setTitle("GPUImage");
+        classBean.setClassName(GPUImageActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);
