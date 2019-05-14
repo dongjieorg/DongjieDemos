@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rxjava.rxbus.RxBusActivity2">
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送字符串Event"
+        android:onClick="onClick1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="发送带tag的字符串Event"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:onClick="onClick2"
+        />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="发送对象Event"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:onClick="onClick3"
+        />
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="发送带tag的对象Event"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:onClick="onClick4"
+        />
+</android.support.constraint.ConstraintLayout>

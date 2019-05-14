@@ -220,6 +220,8 @@
         <activity android:name=".gpu_image.GPUImageActivity" />
         <activity android:name=".rxjava.rxjava.RxJavaActivity" />
         <activity android:name=".rxjava.RxJavaDemoActivity" />
+        <activity android:name=".rxjava.rxbus.RxBusActivity" />
+        <activity android:name=".rxjava.rxbus.RxBusActivity2"></activity>
     </application>
 
 </manifest>
