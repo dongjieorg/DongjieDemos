@@ -24,6 +24,8 @@ import com.dongjie.dongjiedemos.lame_record.RecordLameActivity;
 import com.dongjie.dongjiedemos.notification.NotificationActivity;
 import com.dongjie.dongjiedemos.paging.PagingActivity;
 import com.dongjie.dongjiedemos.pull_refresh.PullRefreshActivity;
+import com.dongjie.dongjiedemos.rxjava.RxJavaDemoActivity;
+import com.dongjie.dongjiedemos.rxjava.rxjava.RxJavaActivity;
 import com.dongjie.dongjiedemos.share_element.ShareElement1Activity;
 import com.dongjie.dongjiedemos.swiperecyclerview.SwipeRecyclerViewActivity;
 import com.dongjie.dongjiedemos.tab_indicator.TabIndicatorActivitys;
@@ -173,6 +175,12 @@ public class MainActivity extends BaseActivity {
         classBean = new ClassBean();
         classBean.setTitle("GPUImage");
         classBean.setClassName(GPUImageActivity.class);
+        list.add(classBean);
+
+        // GPUImage
+        classBean = new ClassBean();
+        classBean.setTitle("RxJava");
+        classBean.setClassName(RxJavaDemoActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);

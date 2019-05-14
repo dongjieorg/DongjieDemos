@@ -217,7 +217,9 @@
         <activity android:name=".calendar.calendar2.CalendarStyle3Activity" />
         <activity android:name=".share_element.ShareElement1Activity" />
         <activity android:name=".share_element.ShareElement2Activity" />
-        <activity android:name=".gpu_image.GPUImageActivity"></activity>
+        <activity android:name=".gpu_image.GPUImageActivity" />
+        <activity android:name=".rxjava.rxjava.RxJavaActivity" />
+        <activity android:name=".rxjava.RxJavaDemoActivity" />
     </application>
 
 </manifest>
