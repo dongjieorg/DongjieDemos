@@ -21,22 +21,6 @@
         />
 
     <Button
-        android:id="@+id/bt2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:text="RxPermission"
-        app:layout_constraintTop_toBottomOf="@+id/bt1"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="30dp"
-        android:onClick="rxPermissionBtClick"
-        android:textAllCaps="false"
-        />
-
-    <Button
-        android:id="@+id/bt3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"

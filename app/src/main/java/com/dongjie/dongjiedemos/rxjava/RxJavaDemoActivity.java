@@ -25,11 +25,6 @@ public class RxJavaDemoActivity extends BaseActivity {
         startActivity(it);
     }
 
-    public void rxPermissionBtClick(View v) {
-        Intent it = new Intent(this, RxJavaActivity.class);
-        startActivity(it);
-    }
-
     public void rxBusBtClick(View v) {
         Intent it = new Intent(this, RxBusActivity.class);
         startActivity(it);
