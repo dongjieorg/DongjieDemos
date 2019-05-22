@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.dongjie.dongjiedemos.album.AlbumActivity;
 import com.dongjie.dongjiedemos.andpermission.PermissionActivity;
 import com.dongjie.dongjiedemos.base.BaseActivity;
+import com.dongjie.dongjiedemos.big_image.BigImageActivity;
 import com.dongjie.dongjiedemos.calendar.CalendarActivity;
 import com.dongjie.dongjiedemos.flow_layout.FlowLayoutActivity;
 import com.dongjie.dongjiedemos.fragment_stack.FragmentStackManagerActivity;
@@ -177,10 +178,16 @@ public class MainActivity extends BaseActivity {
         classBean.setClassName(GPUImageActivity.class);
         list.add(classBean);
 
-        // GPUImage
+        // RxJava
         classBean = new ClassBean();
         classBean.setTitle("RxJava");
         classBean.setClassName(RxJavaDemoActivity.class);
+        list.add(classBean);
+
+        // 大图显示
+        classBean = new ClassBean();
+        classBean.setTitle("显示大图");
+        classBean.setClassName(BigImageActivity.class);
         list.add(classBean);
 
         MyAdapter myAdapter = new MyAdapter(this, list);
